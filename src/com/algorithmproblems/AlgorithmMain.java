@@ -7,7 +7,8 @@ public class AlgorithmMain {
 //		BinarySearch.run();
 //		BubbleSort.runBubbleSort();
 //		InsertionSort.runInsertionSort();
-		MergeSort.runMergeSort();
+//		MergeSort.runMergeSort();
+		AnagramDetection.runAnagram();
 	}
 
 }

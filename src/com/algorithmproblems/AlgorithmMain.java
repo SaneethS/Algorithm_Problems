@@ -10,6 +10,7 @@ public class AlgorithmMain {
 //		MergeSort.runMergeSort();
 //		AnagramDetection.runAnagram();
 //		PrimeNumber.runPrimeNumber();
-		PrimeNumberExtended.runPrimeNumberExtended();
+//		PrimeNumberExtended.runPrimeNumberExtended();
+		Generics.runGenerics();
 	}
 }

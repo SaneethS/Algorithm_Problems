@@ -6,7 +6,8 @@ public class AlgorithmMain {
 		System.out.println("Welcome to Algorithm problems");
 //		BinarySearch.run();
 //		BubbleSort.runBubbleSort();
-		InsertionSort.runInsertionSort();
+//		InsertionSort.runInsertionSort();
+		MergeSort.runMergeSort();
 	}
 
 }

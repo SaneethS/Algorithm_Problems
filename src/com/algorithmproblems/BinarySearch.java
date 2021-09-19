@@ -4,6 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+/**this is the class where the element is searched in an array using binary
+ * search
+ * @author saneeths
+ *
+ */
 public class BinarySearch {
 	public static String[] words;
 	public static String fileName = "data/binary_search.txt"; 
@@ -19,6 +24,9 @@ public class BinarySearch {
 		
 	}
 	
+	/**
+	 * this method is used to read the file
+	 */
 	public static void read() {
 		try {
 			Scanner file = new Scanner(new File(fileName));
@@ -33,6 +41,9 @@ public class BinarySearch {
 		}
 	}
 	
+	/**
+	 * this method is used to sort the array
+	 */
 	public static void sort() {
 		int n = words.length;
 		String temp;
@@ -54,6 +65,9 @@ public class BinarySearch {
 		}
 	}
 	
+	/**this method is used to search the key element in an array
+	 * @param key
+	 */
 	public static void binarySearch(String key) {
 		int left = 0;
 		int right = words.length-1;

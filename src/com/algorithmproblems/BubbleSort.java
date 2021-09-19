@@ -2,6 +2,10 @@ package com.algorithmproblems;
 
 import java.util.*;
 
+/**class used to sort the array using bubble sort algorithm
+ * @author saneeths
+ *
+ */
 public class BubbleSort {
 	public static List<Integer> list = new ArrayList<>();
 	public static int n;
@@ -22,6 +26,9 @@ public class BubbleSort {
 		scanner.close();
 	}
 	
+	/**
+	 * method used to sort the array in the list
+	 */
 	public static void bubbleSort() {
 		int temp;
 		for(int i=0 ; i<n-1 ; i++) {

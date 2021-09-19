@@ -8,7 +8,8 @@ public class AlgorithmMain {
 //		BubbleSort.runBubbleSort();
 //		InsertionSort.runInsertionSort();
 //		MergeSort.runMergeSort();
-		AnagramDetection.runAnagram();
+//		AnagramDetection.runAnagram();
+		PrimeNumber.runPrimeNumber();
 	}
 
 }

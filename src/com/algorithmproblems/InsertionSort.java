@@ -2,6 +2,10 @@ package com.algorithmproblems;
 
 import java.util.Scanner;
 
+/**
+ * @author saneeths
+ *class used to sort the words in an array using insertion sort
+ */
 public class InsertionSort {
 	public static String[] words;
 	public static int n;

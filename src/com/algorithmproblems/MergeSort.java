@@ -2,6 +2,11 @@ package com.algorithmproblems;
 
 import java.util.Scanner;
 
+/**
+ * @author saneeths
+ *this is the class where the array of strings are sorted using merge sort 
+ *algorihtm
+ */
 public class MergeSort {
 	public static String[] words;
 	public static int n;
@@ -21,6 +26,11 @@ public class MergeSort {
 		scanner.close();
 	}
 	
+	/**recursive method to merge and sort
+	 * @param array
+	 * @param start
+	 * @param end
+	 */
 	public static void mergeSort(String[] array, int start, int end) {
 		if(start == end ) {
 			return;
@@ -34,6 +44,12 @@ public class MergeSort {
 		}
 	}
 	
+	/**this is the method where merging of subarrays takes place
+	 * @param array
+	 * @param start
+	 * @param mid
+	 * @param end
+	 */
 	private static void merge(String[] array, int start, int mid, int end) {
 		int n1 = mid - start + 1;
 		int n2 = end - mid;

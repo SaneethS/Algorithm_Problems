@@ -2,6 +2,10 @@ package com.algorithmproblems;
 
 import java.util.*;
 
+/**this class is used to find anagrams between two string
+ * @author saneeths
+ *
+ */
 public class AnagramDetection {
 	public static String string1, string2;
 	public static void runAnagram() {
@@ -16,6 +20,10 @@ public class AnagramDetection {
 		
 	}
 	
+	/**
+	 * method where two string are checked for anagrams or not with their length
+	 * and char array
+	 */
 	public static void anagram() {
 		int length1 = string1.length();
 		int length2 = string2.length();

@@ -9,7 +9,7 @@ public class AlgorithmMain {
 //		InsertionSort.runInsertionSort();
 //		MergeSort.runMergeSort();
 //		AnagramDetection.runAnagram();
-		PrimeNumber.runPrimeNumber();
+//		PrimeNumber.runPrimeNumber();
+		PrimeNumberExtended.runPrimeNumberExtended();
 	}
-
 }

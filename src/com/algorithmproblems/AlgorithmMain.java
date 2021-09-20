@@ -11,6 +11,7 @@ public class AlgorithmMain {
 //		AnagramDetection.runAnagram();
 //		PrimeNumber.runPrimeNumber();
 //		PrimeNumberExtended.runPrimeNumberExtended();
-		Generics.runGenerics();
+//		Generics.runGenerics();
+		FindYourNumber.findYourNumber(Integer.parseInt(args[0]));
 	}
 }
